@@ -1,6 +1,6 @@
 # Stock Analysis
 ## Comparing The differences Of Stock Performance Year over Year
-We first wanted to take a look at the performance of a stock that our clients parents were interested in to determine whether it might be a good investment. The project grew in scope, both with the number of stocks, as well as the stocks performance year over year between 2017 and 2018. It became clear that some changes should be made to the code in order to prcess the data more efficiently and provide a more user friendly interface for the clients.
+We first wanted to take a look at the performance of a stock that our clients parents were interested in to determine whether it might be a good investment. The project grew in scope, both with the number of stocks, as well as the stocks performance year over year between 2017 and 2018. It became clear that some changes should be made to the code in order to process the data more efficiently and provide a more user friendly interface for the clients.
 
 ### Initial Results: A simple yet effective view of one stocks performance in 2018
 Using the code here I combined the total traded volume, and calculated the overall peformance of the stock based on the initial value and the year end value.
@@ -31,4 +31,4 @@ Updating the Code once again and simplifying the output parameters allowed me to
 ### There are advanatages to writing clean and adaptable code
 Using code that is written with the ability to scale up or down makes sense. After the initial request and the first round of edits it was clear that a lot of time could have been saved had the code been more easily adaptable using variables instead of hard-coding. Poring over the code and changing it line by line opens the door to too many errors, and is very time consuming. Using variables allows large scale changes to be made to the scope of the analysis with relatively low probablilty for errors. 
 
-Once the code was refactored and stramlined, the data output was much faster and could easily be applied to an even larger dataset. If the client wqs interested in looking outside of the initial scope of "green stocks" the code could easily be scaled up to include a more broad array of stock tickers and still perform the function quickly.
+Once the code was refactored and stramlined, the data output was much faster and could easily be applied to an even larger dataset. If the client was interested in looking outside of the initial scope of "green stocks" the code could easily be scaled up to include a more broad array of stock tickers and still perform the function quickly.
